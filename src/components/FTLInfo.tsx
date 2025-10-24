@@ -2,9 +2,15 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 
 const FTLInfo = () => {
+<<<<<<< HEAD
  const handleGetQuote = () => {
   const message = encodeURIComponent(
     "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*[e.g., Closed-body, Open-body, Refrigerated truck]\n- *From* [Origin] *To* [Destination]\n- *Material* [e.g., textiles,raw materials]\n- *Weighing* [Ton, e.g., 5 tons]"
+=======
+const handleGetQuote = () => {
+  const message = encodeURIComponent(
+    "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*(e.g., Closed-body, Open-body, Refrigerated truck)\n- *From* [Origin] *To* [Destination]\n- *Material* (e.g., textiles)\n- *Weighing* [Ton, e.g., 5 tons]"
+>>>>>>> a8f520b4dd46ecbe2303c17b016999f8036ca9f5
   );
   window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
 };

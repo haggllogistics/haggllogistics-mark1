@@ -3,9 +3,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Handshake, TrendingDown, Shield, Headphones, FileCheck, Zap } from "lucide-react";
 
 const FreightBroker = () => {
+<<<<<<< HEAD
  const handleGetQuote = () => {
   const message = encodeURIComponent(
     "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*[e.g., Closed-body, Open-body, Refrigerated truck]\n- *From* [Origin] *To* [Destination]\n- *Material* [e.g., textiles,raw materials]\n- *Weighing* [Ton, e.g., 5 tons]"
+=======
+const handleGetQuote = () => {
+  const message = encodeURIComponent(
+    "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*(e.g., Closed-body, Open-body, Refrigerated truck)\n- *From* [Origin] *To* [Destination]\n- *Material* (e.g., textiles)\n- *Weighing* [Ton, e.g., 5 tons]"
+>>>>>>> a8f520b4dd46ecbe2303c17b016999f8036ca9f5
   );
   window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
 };
