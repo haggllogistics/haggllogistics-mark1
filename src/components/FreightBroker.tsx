@@ -3,12 +3,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Handshake, TrendingDown, Shield, Headphones, FileCheck, Zap } from "lucide-react";
 
 const FreightBroker = () => {
-  const handleGetQuote = () => {
-    const message = encodeURIComponent(
-      "Hi, I need a land freight quote for [Truck type eg.,. Closed-body/container,Open-body,Refrigerated truck(reefer)] from [Origin] to [Destination] for [Material, e.g., textiles] weighing [Ton, e.g., 5 tons]."
-    );
-    window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
-  };
+const handleGetQuote = () => {
+  const message = encodeURIComponent(
+    "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*(e.g., Closed-body, Open-body, Refrigerated truck)\n- *From* [Origin] *To* [Destination]\n- *Material* (e.g., textiles)\n- *Weighing* [Ton, e.g., 5 tons]"
+  );
+  window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
+};
 
   const services = [
     {
