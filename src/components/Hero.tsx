@@ -44,11 +44,9 @@ const Hero = () => {
             >
               Get Instant Quote
             </Button>
-            <div
-              
-              className="text-lg px-8 py-6 "
-            >
-              Contact Us +91 9442602793
+          
+            <div className="text-lg px-8 py-6 ">
+              reachus@haggllogistics.in
             </div>
           </div>
           
