@@ -26,7 +26,7 @@ const Header = () => {
             <img src={hagglLogo} alt="HAGGL Logistics" className="h-10 w-auto" />
             <div>
               <div className="font-bold text-xl leading-none">LOGISTICS</div>
-              <div className="text-xs text-muted-foreground">Connecting Carriers & Shippers</div>
+              <div className="text-xs text-muted-foreground">Brokerage Firm</div>
             </div>
           </div>
 
