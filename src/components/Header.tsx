@@ -46,18 +46,19 @@ const Header = () => {
             <Button
               variant="ghost"
               size="sm"
-              onClick={handleCall}
+              onClick={MailUs}
               className="hidden sm:flex"
             >
-              <Phone className="h-4 w-4 mr-2" />
-              Call
+              
+              Get Quote
             </Button>
             <Button
               variant="hero"
               size="sm"
-              onClick={MailUs}
+              onClick={handleCall}
             >
-              Get Quote
+              <Phone className="h-4 w-4 mr-2" />
+              Call
             </Button>
           </div>
         </div>
