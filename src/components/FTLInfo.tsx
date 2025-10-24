@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 
 const FTLInfo = () => {
-  const handleGetQuote = () => {
-    const message = encodeURIComponent(
-      "Hi, I need a land freight quote for [Truck type eg.,. Closed-body/container,Open-body,Refrigerated truck(reefer)] from [Origin] to [Destination] for [Material, e.g., textiles] weighing [Ton, e.g., 5 tons]."
-    );
-    window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
-  };
+ const handleGetQuote = () => {
+  const message = encodeURIComponent(
+    "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*[e.g., Closed-body, Open-body, Refrigerated truck]\n- *From* [Origin] *To* [Destination]\n- *Material* [e.g., textiles,raw materials]\n- *Weighing* [Ton, e.g., 5 tons]"
+  );
+  window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
+};
 
     const MailUs = () => {
   window.open("https://mail.google.com/mail/?view=cm&fs=1&to=reachus@haggllogistics.in&su=Land+Freight+Quote+Request&body=Hi,%20I%20need%20a%20land%20freight%20quote%20for%20[Truck%20type%20eg.,.%20Closed-body/container,Open-body,Refrigerated%20truck(reefer)]%20from%20[Origin]%20to%20[Destination]%20for%20[Material,%20e.g.,%20textiles]%20weighing%20[Ton,%20e.g.,%205%20tons].", "_blank");

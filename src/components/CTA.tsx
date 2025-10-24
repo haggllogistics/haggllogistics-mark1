@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Phone, Mail, MessageCircle } from "lucide-react";
 
 const CTA = () => {
-  const handleGetQuote = () => {
-    const message = encodeURIComponent(
-      "Hi, I need a land freight quote for [Truck type eg.,. Closed-body/container,Open-body,Refrigerated truck(reefer)] from [Origin] to [Destination] for [Material, e.g., textiles] weighing [Ton, e.g., 5 tons]."
-    );
-    window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
-  };
+ const handleGetQuote = () => {
+  const message = encodeURIComponent(
+    "*HAGGLER NEEDS YOUR HELP:*\n- *Truck type*[e.g., Closed-body, Open-body, Refrigerated truck]\n- *From* [Origin] *To* [Destination]\n- *Material* [e.g., textiles,raw materials]\n- *Weighing* [Ton, e.g., 5 tons]"
+  );
+  window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
+};
 
  /* const handleCall = () => {
     window.location.href = "tel:+919442602793";
