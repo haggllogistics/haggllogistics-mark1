@@ -12,7 +12,7 @@ const Services = () => {
     {
       icon: TrendingDown,
       title: "Expert Haggling",
-      description: "Our skilled hagglers negotiate the best rates for your shipment, ensuring maximum value.",
+      description: "Our skilled hagglers target fragmented markets and negotiate the best rates for your shipment, ensuring maximum value.",
       features: ["Professional negotiation", "Market-rate analysis", "Cost optimization", "Best deals guaranteed"]
     },
     {
