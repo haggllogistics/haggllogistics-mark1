@@ -52,7 +52,7 @@ const FreightBroker = () => {
               Professional <span className="text-primary">Freight Haggling</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Our expert hagglers negotiate with carriers on your behalf to secure the most 
+              Our expert hagglers focus on fragmented market to negotiate with carriers on your behalf to secure the most 
               competitive rates. We leverage our industry connections and haggling expertise 
               to ensure you get the best deal every time.
             </p>
