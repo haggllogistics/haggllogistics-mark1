@@ -21,10 +21,10 @@ const FreightBroker = () => {
       title: "Best Rates",
       description: "Competitive pricing through volume negotiations"
     },
-    {
+     {
       icon: Shield,
-      title: "Risk Management",
-      description: "Complete insurance and compliance handling"
+      title: "Reliable Carriers",
+      description: "Builds strong reputation as a Trustworthy partners"
     },
     {
       icon: Headphones,
