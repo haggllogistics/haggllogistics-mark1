@@ -25,9 +25,9 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            <span className="text-foreground">Premium</span>{" "}
-            <span className="text-primary">Land Freight</span>{" "}
-            <span className="text-foreground">Solutions</span>
+            <span className="text-foreground">Yoga</span>{" "}
+            <span className="text-primary">Love</span>{" "}
+            <span className="text-foreground">Vikki</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
