@@ -26,8 +26,8 @@ const Footer = () => {
               <li>Full Truck Load (FTL)</li>
               <li>Expert Freight Haggling</li>
               <li>Competitive Rate Negotiation</li>
+              <li>Tamil Nadu Intrastate freight service</li>
               <li>South India Coverage</li>
-              <li>Express Delivery</li>
             </ul>
           </div>
 
