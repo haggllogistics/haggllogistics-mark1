@@ -31,16 +31,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">Coverage</h3>
-            <ul className="space-y-2 text-sm text-secondary-foreground/70">
-              <li>Tamil Nadu</li>
-              <li>Karnataka</li>
-              <li>Kerala</li>
-              <li>Andhra Pradesh</li>
-              <li>Telangana</li>
-            </ul>
-          </div>
 
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
@@ -55,7 +45,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                <span>South India Coverage Network</span>
+                <span>No. 19 C, Nehru Nagar 6th Street 1st Cross Street Meenakshi Road, TVS Nagar, Madurai, Madurai, Tamil Nadu, 625003</span>
               </div>
             </div>
           </div>

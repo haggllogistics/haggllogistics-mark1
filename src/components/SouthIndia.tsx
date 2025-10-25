@@ -98,7 +98,7 @@ const SouthIndia = () => {
         </div>
 
         <div className="mt-12 bg-primary/5 border-2 border-primary/20 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold mb-4 text-center">Major Trade Routes</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center">Major Intra State Routes</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
               <div className="text-lg font-semibold mb-2">Madurai ↔ Chennai</div>
