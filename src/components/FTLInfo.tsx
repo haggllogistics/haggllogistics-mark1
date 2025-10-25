@@ -31,11 +31,7 @@ const FTLInfo = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Why Choose <span className="text-primary">FTL</span>?
             </h2>
-            <p className="text-lg text-secondary-foreground/80 mb-8">
-              Full Truck Load (FTL) shipping is ideal when you have enough cargo to fill an entire truck. 
-              This dedicated service ensures your goods move directly from origin to destination without 
-              consolidation with other shipments.
-            </p>
+    
             
             <div className="space-y-3 mb-8">
               {benefits.map((benefit, index) => (
