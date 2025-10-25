@@ -60,12 +60,8 @@ const FreightBroker = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold">How We Haggle</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Our professional hagglers are skilled negotiators who work exclusively to get you 
-                the best freight rates. We compare multiple carriers, negotiate aggressively, and 
-                leverage our industry relationships to haggle down costs significantly.
-              </p>
+              <h3 className="text-3xl font-bold">Value Creation Pipeline</h3>
+  
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="h-6 w-6 rounded-full bg-primary flex items-center justify-center flex-shrink-0 mt-0.5">
