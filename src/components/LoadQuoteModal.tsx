@@ -47,7 +47,6 @@ ${formattedDateTime}
       `- *Material:* ${data.material || "Not specified"}\n` +
       `- *Vehicle:* ${data.vehicle || "Optional"}\n` +
       `- *Body Type:* ${data.bodyType || "Not specified"}\n` +
-      `- *Rate:* ${data.rate || ""} ${data.rateUnit === "per_km" ? "₹/km" : data.rateUnit === "per_ton" ? "₹/ton" : "Lumpsum"}\n` +
       `- *Approx Weight:* ${data.weight || "Not specified"}\n` +
       `- *Truck Needed:* ${data.truckNeeded || "Not specified"}\n` +
       `- *Contact:* ${data.contact || "Not specified"}\n` +
@@ -157,7 +156,7 @@ ${formattedDateTime}
             {/* Contact Number */}
             <div>
               <Label htmlFor="contact">Contact Number</Label>
-              <Input id="contact" name="contact" placeholder="+919894511653" required />
+              <Input id="contact" name="contact" placeholder="+919442602793" required />
             </div>
 
             {/* Message */}
