@@ -123,23 +123,7 @@ ${formattedDateTime}
               </Select>
             </div>
 
-            {/* Rate */}
-            <div>
-              <Label>Rate</Label>
-              <div className="grid grid-cols-[1fr_120px] gap-2">
-                <Input type="number" name="rate" placeholder="22" min="0" />
-                <Select name="rateUnit" defaultValue="per_km">
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="per_km">₹/km</SelectItem>
-                    <SelectItem value="per_ton">₹/ton</SelectItem>
-                    <SelectItem value="lump_sum">Lumpsum</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-            </div>
+
 
             {/* Approx Weight */}
             <div>
@@ -174,7 +158,7 @@ ${formattedDateTime}
 
           <DialogFooter className="flex flex-col sm:flex-row justify-between items-center gap-4 border-t pt-4">
             <p className="text-xs text-muted-foreground order-2 sm:order-1">
-              New post will go live immediately
+              Get Quotes after posting immediately
             </p>
             <Button type="submit" className="order-1 sm:order-2 bg-accent hover:bg-accent/90">
               <CirclePlus className="h-4 w-4 mr-1.5" />
