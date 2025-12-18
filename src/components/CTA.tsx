@@ -9,9 +9,6 @@ const CTA = () => {
   window.open(`https://wa.me/919442602793?text=${message}`, "_blank");
 };
 
- /* const handleCall = () => {
-    window.location.href = "tel:+919442602793";
-  };*/
 
 const MailUs = () => {
   window.open("https://mail.google.com/mail/?view=cm&fs=1&to=reachus@haggllogistics.in&su=Land+Freight+Quote+Request&body=Hi,%20I%20need%20a%20land%20freight%20quote%20for%20[Truck%20type%20eg.,.%20Closed-body/container,Open-body,Refrigerated%20truck(reefer)]%20from%20[Origin]%20to%20[Destination]%20for%20[Material,%20e.g.,%20textiles]%20weighing%20[Ton,%20e.g.,%205%20tons].", "_blank");
