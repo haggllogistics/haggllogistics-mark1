@@ -25,7 +25,7 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <img src={hagglLogo} alt="HAGGL Logistics" className="h-10 w-auto" />
             <div>
-              <div className="font-bold text-xl leading-none">LOGISTICS</div>
+              <div className="font-bold text-xs leading-none">LOGISTICS</div>
               <div className="text-xs text-muted-foreground">Brokerage Firm</div>
             </div>
           </div>
